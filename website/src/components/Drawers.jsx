@@ -20,9 +20,9 @@ const navigation = [
 ];
 
 const sidebar = [
-  { name: "Dashboard", href: "/", icon: LayoutDashboard },
-  { name: "Courses", href: "/course", icon: BookOpen },
-  { name: "Profile", href: "/profile", icon: UserRound },
+  { name: "Dashboard", href: "#", icon: LayoutDashboard },
+  { name: "Courses", href: "#", icon: BookOpen },
+  { name: "Profile", href: "#", icon: UserRound },
 ];
 
 function classNames(...classes) {
