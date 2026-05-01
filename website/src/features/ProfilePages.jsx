@@ -50,7 +50,7 @@ const ProfilePages = () => {
       <div className="flex-1 p-8">
         <div className="max-w-4xl mx-auto">
           {/* Profile Header */}
-          <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg p-8 mb-8">
+          <div className="bg-linear-to-r from-indigo-600 to-purple-600 rounded-lg p-8 mb-8">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-6">
                 {/* Avatar */}
@@ -120,7 +120,7 @@ const ProfilePages = () => {
               </h2>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <Mail className="w-5 h-5 text-indigo-400 mt-1 flex-shrink-0" />
+                  <Mail className="w-5 h-5 text-indigo-400 mt-1 shrink-0" />
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
                     <p className="text-white font-medium break-all">
@@ -129,7 +129,7 @@ const ProfilePages = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <Phone className="w-5 h-5 text-indigo-400 mt-1 flex-shrink-0" />
+                  <Phone className="w-5 h-5 text-indigo-400 mt-1 shrink-0" />
                   <div>
                     <p className="text-gray-400 text-sm">Phone Number</p>
                     <p className="text-white font-medium">
