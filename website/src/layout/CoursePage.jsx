@@ -185,7 +185,7 @@ const CoursePage = () => {
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80"
                   className="absolute inset-0 h-full w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-tr from-black via-black/65 to-violet-900/35" />
+                <div className="absolute inset-0 bg-linear-to-tr from-black via-black/65 to-violet-900/35" />
 
                 <div className="relative flex h-full flex-col justify-between p-6 sm:p-8">
                   <div className="flex items-start justify-between gap-4">
