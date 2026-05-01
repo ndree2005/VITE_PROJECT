@@ -4,6 +4,7 @@ const page = () => {
   return (
     <View>
       <Text>Hello, React Native!</Text>
+      <Text>Hello, in the world!</Text>
     </View>
   )
 }
