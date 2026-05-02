@@ -1,5 +1,7 @@
 import { Text, View, StyleSheet } from "react-native";
 
+import '../global.css'
+
 export default function Index() {
   return (
     <div className="bg-slate-100 rounded-xl">

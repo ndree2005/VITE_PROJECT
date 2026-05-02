@@ -1,12 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    './app/**/*.{js,ts,jsx,tsx}',  // folder app kamu
-    './components/**/*.{js,ts,jsx,tsx}', // kalau ada
-    './pages/**/*.{js,ts,jsx,tsx}', // optional (kalau masih pakai pages)
+    "./index.html",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
-  },
+  theme: {},
   plugins: [],
 }
