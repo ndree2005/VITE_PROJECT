@@ -2,16 +2,8 @@ import { Text, View, StyleSheet } from "react-native";
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text>index page the world</Text>
-    </View>
+    <div className="bg-slate-100 rounded-xl">
+      <p className="text-lg font-medium">Welcome to Tailwind</p>
+    </div>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
